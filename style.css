@@ -10,7 +10,7 @@ body{
 }
 .header{
     background-color: var(--extra-background-color);
-    width: 150px;
+    --header-width: 150px;
     height: 100%;
     z-index: 10;
     display: flex;
@@ -21,8 +21,8 @@ body{
 }
 
 .header_logo{
-    width: 150px;
-    height: 150px;
+    width: var(--header-width);
+    height: var(--header-width);
     background-color: brown;
     margin-bottom: 200px;
 }
@@ -39,7 +39,7 @@ body{
 
 .topContent{
     width: 100%;
-    height: 1080px;
+    height: 100vh;
     background:linear-gradient(58deg, rgba(160,177,179,0.18) 0%, rgba(128,157,158,1) 100%) ;
 }
 .topContent_img{
