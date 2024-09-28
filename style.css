@@ -12,6 +12,7 @@ body{
     background-color: var(--extra-background-color);
     width: 150px;
     height: 100%;
+    z-index: 10;
     display: flex;
     position: fixed;
     align-items: flex-start;
@@ -34,4 +35,15 @@ body{
     font-family: var(--textFamily-font-family);
     font-weight: 900;
     font-size: 24px;
+}
+
+.topContent{
+    width: 100%;
+    height: 1080px;
+    background:linear-gradient(58deg, rgba(160,177,179,0.18) 0%, rgba(128,157,158,1) 100%) ;
+}
+.topContent_img{
+    position: relative;
+    top: -110px;
+
 }
