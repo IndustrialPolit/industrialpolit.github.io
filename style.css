@@ -43,7 +43,6 @@ body{
     background:linear-gradient(58deg, rgba(160,177,179,0.18) 0%, rgba(128,157,158,1) 100%) ;
 }
 .topContent_img{
-    position: relative;
-    top: -110px;
-
+    position:absolute;
+    bottom: 0vh;
 }
